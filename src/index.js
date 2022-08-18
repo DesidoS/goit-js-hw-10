@@ -40,7 +40,6 @@ function renderCountriesMarkup(arr) {
         clearMarkup(listItem);
         countryCard.innerHTML = createCountrieMarkup(arr);
 }    else {
-        // if (arr.length > 1 && arr.length <= 10)
         clearMarkup(countryCard);
         listItem.innerHTML = createCountriesMarkup(arr);
 }};
