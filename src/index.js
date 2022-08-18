@@ -20,7 +20,7 @@ function onInput() {
     if (!searchCountries) {
         clearMarkup(listItem);
         clearMarkup(countryCard);
-        // return
+        return
     }
     
     API.fetchCountries(searchCountries)
